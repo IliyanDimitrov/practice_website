@@ -5,3 +5,31 @@
 h1 {
     text-align: center;
 }
+
+body {
+    background-color: red;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    body {
+      background-color: green;
+    }
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    body {
+      background-color: #ff4455;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    body {
+      background-color: yellow;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
