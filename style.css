@@ -7,24 +7,24 @@ h1 {
 }
 
 body {
-    background-color: red;
+    background-color: rgb(129, 43, 43);
   }
   
   @media only screen and (max-width: 1200px) {
     body {
-      background-color: green;
+      background-color: rgb(102, 160, 102);
     }
   }
   
   @media only screen and (max-width: 1000px) {
     body {
-      background-color: #ff4455;
+      background-color: #d37c83;
     }
   }
   
   @media only screen and (max-width: 800px) {
     body {
-      background-color: yellow;
+      background-color: rgb(161, 161, 44);
     }
   }
   
